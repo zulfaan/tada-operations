@@ -42,14 +42,14 @@ Here is the comparison of Excel pivot table and Python DataFrame analysis:
 ![Python](img/152658.png)  
 
 **Excel Result:**  
-![Excel](img/152611.png)  
+![Excel](img/153845.png)  
 
 #### ✅ Total points for each status category (ACTIVE, INACTIVE, SUSPEND)  
 **Python Result:**  
 ![Python](img/152704.png)  
 
 **Excel Result:**  
-![Excel](img/152611.png)  
+![Excel](img/153845.png)  
 
 #### ✅ Member distribution by country (ID, MY, SG)  
 **Python Result:**  
