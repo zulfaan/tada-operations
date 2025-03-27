@@ -40,13 +40,15 @@ Here is the comparison of Excel pivot table and Python DataFrame analysis:
 ![Python vs Excel Comparison](https://example.com/python-excel-comparison.png)  
 
 ## 💂 Tools Used
-🔹 **Microsoft Excel** (for data processing & pivot table analysis)  
-🔹 **Python (Pandas, OpenPyXL)** (for data manipulation & validation)  
-🔹 **Jupyter Notebook** (for executing Python scripts)  
+[![Microsoft Excel](https://img.shields.io/badge/Microsoft%20Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)](https://www.microsoft.com/en-us/microsoft-365/excel)
+[![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
+[![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)](https://pandas.pydata.org/)
+[![OpenPyXL](https://img.shields.io/badge/OpenPyXL-FFD43B?style=for-the-badge&logo=python&logoColor=white)](https://openpyxl.readthedocs.io/)
+[![Jupyter Notebook](https://img.shields.io/badge/Jupyter_Notebook-F37626?style=for-the-badge&logo=jupyter&logoColor=white)](https://jupyter.org/)
 
 ## 📂 Results & Resources
 📁 **View the processed spreadsheet:** [Google Spreadsheet Link](https://docs.google.com/spreadsheets/d/1dtjhIuV8R6OaPlTbGOsL5GTyTRm6YTc-/edit?usp=sharing&ouid=114813118100710688109&rtpof=true&sd=true)  
-🖼 **Visual Comparison**: See the pivot table and Python analysis above.  
+🎨 **Visual Comparison**: See the pivot table and Python analysis above.  
 
 ---
 
