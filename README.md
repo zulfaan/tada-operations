@@ -30,7 +30,7 @@ A pivot table is created in Excel to analyze data distribution. The results are 
 
 ### 📸 Pivot Table Visualization
 Below is the pivot table analysis performed in Excel:  
-![Pivot Table Analysis](img/152611.png)  
+![Pivot Table Analysis](img/153845.png)  
 
 ## ⚡ Python DataFrame Comparison
 A similar analysis is performed using Python **(Pandas, OpenPyXL)** to validate the pivot table results from Excel. Since the results are identical, comparison visuals are provided instead of tabular differences.
