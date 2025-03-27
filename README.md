@@ -36,20 +36,31 @@ Below is the pivot table analysis performed in Excel:
 A similar analysis is performed using Python **(Pandas, OpenPyXL)** to validate the pivot table results from Excel. Since the results are identical, comparison visuals are provided instead of tabular differences.
 
 ### 📸 Python vs Excel Comparison
-Here is the comparison of Excel pivot table and Python DataFrame analysis:  
-![Python vs Excel Comparison](https://example.com/python-excel-comparison.png)
-**Count of ACTIVE, INACTIVE, and SUSPEND members per ID**
-![Python](img/152658.png)
-![Excel](img/152611.png)
-**Total points for each status category (ACTIVE, INACTIVE, SUSPEND)**
-![Python](img/152704.png)
-![Excel](img/152611.png)
-**Member distribution by country (ID, MY, SG)**
-![Python](img/152618.png)
-![Excel](img/152712.png)
+Here is the comparison of Excel pivot table and Python DataFrame analysis:
+#### ✅ Count of ACTIVE, INACTIVE, and SUSPEND members per ID  
+**Python Result:**  
+![Python](img/152658.png)  
 
-**Country with highest total points from ACTIVE members** 
-Country with Highest Total Points from ACTIVE Members: ID 
+**Excel Result:**  
+![Excel](img/152611.png)  
+
+#### ✅ Total points for each status category (ACTIVE, INACTIVE, SUSPEND)  
+**Python Result:**  
+![Python](img/152704.png)  
+
+**Excel Result:**  
+![Excel](img/152611.png)  
+
+#### ✅ Member distribution by country (ID, MY, SG)  
+**Python Result:**  
+![Python](img/152618.png)  
+
+**Excel Result:**  
+![Excel](img/152712.png)  
+
+#### ✅ Country with highest total points from ACTIVE members  
+**Result:**  
+**ID** has the highest total points from ACTIVE members.
 
 ## 💂 Tools Used
 [![Microsoft Excel](https://img.shields.io/badge/Microsoft%20Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)](https://www.microsoft.com/en-us/microsoft-365/excel)
