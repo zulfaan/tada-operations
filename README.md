@@ -1,98 +1,50 @@
-<h2 align="center">
-  Data Analysis and Web Scraping Project 🚀
-</h2>
+# Excel Test Data Processing
 
-<p align="center">
-  <a href="#about">About</a> •
-  <a href="#technologies">Technologies</a> •
-  <a href="#features">Features</a> •
-  <a href="#results">Results</a>
-</p>
+## About the Project
+This project focuses on processing and transforming raw data using Excel formulas and Python scripting. The objective is to clean, format, and analyze the given dataset efficiently. The steps include extracting IDs, formatting phone numbers, assigning country codes, cleaning names and emails, converting date formats, assigning extra points, and summarizing data using pivot tables.
 
-<a href="https://komarev.com/ghpvc/?username=yourusername">
-  <img align="right" src="https://komarev.com/ghpvc/?username=yourusername&label=Visitors&color=0e75b6&style=flat" alt="Profile visitor" />
-</a>
+## Steps & Processing
+### Step 1: Extract ID
+Use a formula to extract the ID of individuals from the "Data" tab.
 
----
+### Step 2: Format Phone Numbers
+Convert phone numbers into international format (e.g., `08123456789` → `+628123456789`).
 
-## 🌟 About the Project
+### Step 3: Assign Country Code
+Extract the country code from the formatted phone numbers.
 
-This project focuses on **web scraping**, **data cleaning**, and **data analysis**. The data is extracted from Webometrics using Python's BeautifulSoup, and further processed using Pandas and NumPy. The final analysis includes ranking information for universities worldwide.
+### Step 4: Clean Names
+Remove special characters and extra spaces from names.
 
-🔍 **Objectives:**
-- Scrape university ranking data
-- Clean and structure the data
-- Analyze patterns and trends
-- Export the final data to a structured format
+### Step 5: Clean Emails
+Correct email addresses by removing incorrect symbols and spacing.
 
----
+### Step 6: Convert Date Format
+Change the date format to `YYYY-MM-DD`.
 
-## 🛠 Technologies Used
+### Step 7: Assign Extra Points
+Assign additional points based on the given ID.
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![BeautifulSoup](https://img.shields.io/badge/BeautifulSoup-008080?style=for-the-badge&logo=python&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
-![Jupyter Notebook](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
-![Matplotlib](https://img.shields.io/badge/Matplotlib-008080?style=for-the-badge&logo=python&logoColor=white)
+### Step 8: Pivot Table Analysis
+A pivot table is created in Excel to analyze data distribution. The results are compared with Python-based calculations to ensure accuracy.
 
----
+#### Excel Pivot Table Results:
+- **Count of ACTIVE members per ID**
+- **Count of INACTIVE members per ID**
+- **Count of SUSPEND members per ID**
+- **Sum of total points for ACTIVE members per ID**
+- **Sum of total points for INACTIVE members per ID**
+- **Sum of total points for SUSPEND members per ID**
+- **Count of members from each country (ID, MY, SG)**
+- **Country with the highest total points from ACTIVE members**
 
-## 🔥 Features
+#### Python DataFrame Comparison:
+A similar analysis is performed using Python (Pandas) to validate the pivot table results from Excel. Below are sample comparisons:
 
-✔ **Automated Web Scraping** - Extracts university ranking data from Webometrics.
+| Metric | Excel Result | Python Result |
+|--------|-------------|--------------|
+| Count of ACTIVE members (ID MERAH) | X | Y |
+| Sum of points for ACTIVE members (ID BIRU) | X | Y |
+| Country with highest total points | ID | MY |
 
-✔ **Data Cleaning** - Removes inconsistencies and formats the dataset.
-
-✔ **Data Analysis & Visualization** - Identifies trends in global university rankings.
-
-✔ **Export to CSV/Excel** - Saves the final structured dataset.
-
-✔ **Comparison with Spreadsheet Data** - Ensures data accuracy with reference values.
-
----
-
-## 📊 Results & Analysis
-
-### Sample Data Output
-| World Rank | University Name |
-|------------|----------------|
-| 1          | Harvard University |
-| 2          | Stanford University |
-| 3          | MIT |
-
-### 📈 Trend Analysis
-The ranking system follows a pattern where universities with stronger research output tend to rank higher. The extracted data confirms well-known global trends.
-
----
-
-## 🚀 How to Run the Project
-
-1️⃣ Clone the repository:
-```bash
-  git clone https://github.com/yourusername/data-analysis-webscraping.git
-```
-
-2️⃣ Install required libraries:
-```bash
-  pip install beautifulsoup4 pandas numpy matplotlib
-```
-
-3️⃣ Run the Jupyter Notebook:
-```bash
-  jupyter notebook
-```
-
-4️⃣ Execute the scripts to perform scraping and analysis.
-
----
-
-## 📧 Contact
-🔗 Feel free to connect via:
-- **LinkedIn**: [Your LinkedIn](https://linkedin.com/in/yourusername)
-- **GitHub**: [Your GitHub](https://github.com/yourusername)
-- **Email**: your.email@example.com
-
----
-
-🔥 If you like this project, don't forget to ⭐ the repository!
+The differences, if any, are analyzed to determine discrepancies between the two methods.
